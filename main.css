@@ -1,0 +1,98 @@
+body {
+  margin: 0px;
+}
+
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+  font-family: 'Basier';
+  src: url('BasierSquare-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Basier';
+  font-weight: bold;
+  src: url('BasierSquare-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Pensum';
+  src: url('PensumPro-Book.woff2') format('woff2');
+}
+
+
+.site_banner {
+  border-top: black;
+  border-top: 8px;
+  border-top: solid;
+  border-bottom-color: black;
+  border-bottom: 1px;
+  border-bottom: solid;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  size: 46px;
+  margin-bottom: 0px;
+}
+p {
+  color: black;
+}
+
+h3 {
+  font_family: Basier
+  font-weight:  bolder;
+  color: #de2f23;
+  letter-spacing: 1px;
+}
+
+.article {
+  max-width: 900px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.story_header {
+  font-family: Basier;
+  font-size: 20px;
+}
+
+.byline {
+  style: bold;
+
+}
+
+.story_copy {
+  font-family: Pensum
+  font-size: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+.photo_caption {
+  color: slategray;
+  size: 14px;
+  margin: 0px;
+}
+
+.footer {
+  font-family: Basier;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.footer_info{
+  color: slategray;
+  size: 14;
+}
+
